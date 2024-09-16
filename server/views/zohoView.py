@@ -10,8 +10,8 @@ from django.shortcuts import  redirect
 from ..utils import encrypt_data, decrypt_data
 
 
-client_id = '1000.0PQJ90V3YHV7GBSWRJID2V6DM9UXYC'
-client_secret = '6329266d5dbd906011e64ef1772b2fc58b58422ccc'
+client_id = 'client_id'
+client_secret = 'client_secret'
 token_url = 'https://accounts.zoho.com/oauth/v2/token'
 redirect_uri = 'http://localhost:4000'
 redirectUrl= 'http://127.0.0.1:8000/zoho/callback/'
@@ -19,7 +19,7 @@ access_type = 'offline'
 response_type = 'code'
 scope = 'ZohoCRM.modules.quotes.ALL,ZohoCRM.coql.READ,ZohoSubscriptions.subscriptions.READ,ZohoSubscriptions.plans.READ,ZohoCRM.modules.ALL,ZohoCRM.settings.modules.ALL,ZohoSubscriptions.products.READ,ZohoInventory.settings.READ,ZohoInventory.items.READ'
 clientUrlIndex= 'http://localhost:4000/index/'
-organizationid= '20100298866'
+organizationid= 'organizationid'
 KV_URI = 'https://accounts.zoho.eu/oauth/v2/token'
 
 
